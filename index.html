@@ -1,40 +1,157 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title> web1 </title>
-    <link rel="stylesheet" href="style.css " />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 .0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(126, 134, 220);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+
+        nav a {
+            color: rgb(0, 0, 0);
+            padding: 20px;
+            font-size: large;
+        }
+
+        nav {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            border-radius: 15px;
+            box-shadow: 15px 16px 27px -7px rgba(34, 35, 138, 0.75);
+            -webkit-box-shadow: 15px 16px 27px -7px rgba(34, 35, 138, 0.75);
+            -moz-box-shadow: 15px 16px 27px -7px rgba(34, 35, 138, 0.75);
+
+
+        }
+
+        #contact ul {
+            list-style: none;
+           margin: 10px;
+           padding: 5px;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        section {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            border-radius: 15px;
+            box-shadow: 15px 16px 27px -7px rgba(34, 35, 138, 0.75);
+            -webkit-box-shadow: 15px 16px 27px -7px rgba(34, 35, 138, 0.75);
+            -moz-box-shadow: 15px 16px 27px -7px rgba(34, 35, 138, 0.75);
+        }
+
+        /* .a-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    max-width: 420px;
+  padding: 24px;
+  border-radius: 20px;
+  border: 5px solid sandybrown;
+        } */
+        img {
+            border: 8px solid rgb(126, 134, 220);
+            display: block;
+            border-radius: 50%;
+            width: 300px;
+            /* box-shadow: 1px 6px 25px 11px rgb(126, 134, 220);
+-webkit-box-shadow: 1px 6px 25px 11px rgb(126, 134, 220);
+-moz-box-shadow: 1px 6px 25px 11px rgb(126, 134, 220); */
+            margin: 0 auto 15px;
+        }
+
+        p {
+            margin-top: 30px;
+        }
+
+        /* .teks1 h2 {
+            margin: 30px;
+            text-align: center;
+        } */
+
+        /* .hobi{
+        text-decoration: none;
+       } */
+        a {
+            text-decoration: none;
+            color: rgb(151, 192, 132);
+        }
+
+        /* .contact{
+        text-decoration: none;
+       } */
+        footer {
+            text-align: center;
+            color: rgb(41, 38, 38);
+            font-size: 16 px;
+       
+        }
+    </style>
 </head>
 
 <body>
 
-    <!-- NAVBAR -->
-    <div class="card">
-        <div class="card1">
-            <ul class="ul-navbar">
-                <li class="li-navbar">
-                    <a href="#" class="a-navbar">Home</a>
-                </li>
-                <li class="li-navbar">
-                    <a href="yww.html" class="a-navbar">About me</a>
-                </li>
-                <li class="li-navbar">
-                    <a href="contact.html" class="a-navbar">Apa yahh??</a>
-                </li>
-            </ul>
-        </div>
+    <nav>
+        <a href="#tentang" class="navbar">About</a> |
+        <a href="#hobi" class="navbar"> Hobi</a> |
+        <a href="#contact" class="navbar"> Contact</a>
 
-        <div>
-            <h1 class="welcome">WELCOME</h1>
-            <p class="text-home">This website is created as a learning project.</p>
-          
-        </div>
-
-       
-
-    </div>
+    </nav>
 
 
-</body>
+    <h1>Profil Siswa</h1>
+
+    <section id="tentang">
+
+        <h2>🦹‍♀️ About me</h2>
+
+        <img src="foto2.jpg">
+        <p>Hi, aku <b>Nita</b> <br> siswa yang belajar <i>web development</i> </p>
+        <p>Saya tertarik belajar coding karena ingin bisa membuat dan memahami cara kerja internet</p>
+
+    </section>
+
+
+    <section id="hobi">
+        <h3>🏓 Hobi</h3>
+        <ul>
+            <li>Menggambar</li>
+            <li>Membaca</li>
+            <li>Menonton</li>
+        </ul>
+
+    </section>
+
+    <section id="contact">
+        <h3> 🌐 Media Sosial</h3>
+        <ul>
+            <li>Instagram : <a href="https://www.instagram.com/">@nnita</a></li>
+            <li>Youtube : <a href="https://www.youtube.com/">Chanel Saya</a></li>
+        </ul>
+
+    </section>
+    <footer>
+        <p>
+            Dibuat oleh Nita <br> Latihan html + css - hari ke 6
+        </p>
+    </footer>
+ </body>
 
 </html>
