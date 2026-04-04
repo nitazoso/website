@@ -4,14 +4,14 @@ body {
   align-items: center;
   height: 100vh;
   display: flex;
-  background: url(background.jpg) no-repeat;
   background-size: cover;
-  background-position: center;
+
 }
 
 /* CARD UTAMA */
 .card {
-  background: transparent;
+  background-color: antiquewhite;
+  /* background: transparent; */
   width: 1000px;
   min-height: 500px;
   border: 1px solid rgba(255, 255, 255, 2);
